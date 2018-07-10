@@ -1,0 +1,59 @@
+@media (min-width:900px) {
+  #contenedor{
+    width: 900px;
+    margin: auto;
+    border: 1px solid;
+  }
+  #header{
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    }
+    #maintitle{
+      color: white;
+      text-indent: 10px;
+      text-shadow: 2px 2px 2px #02010a;
+      float: left;
+      margin-top: auto;
+    }
+
+
+}
+@media (max-width:899px) {
+  #contenedor{
+    width: 100px
+    margin:auto;
+  }
+  #header{
+    border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+  }
+}
+
+#header{
+  height: 10%;
+  background-color: #5b7989;
+}
+
+#central{
+  background-color: #82c3a6;
+  height: 40%
+}
+#crocodileimg{
+  position: absolute;
+  margin:auto;
+  width: 20%
+}
+body{
+  font-family:  'Dancing Script';
+}
+
+#menu{
+  float: right;
+  text-indent: -20px;
+  text-shadow: 0px 0px 0px #02010a;
+}
+a{
+  color: white;
+}
